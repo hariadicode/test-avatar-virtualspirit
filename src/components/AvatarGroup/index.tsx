@@ -3,7 +3,7 @@ import { AvatarType } from '../../utils/types'
 import { getTwoCharOfName } from '../../utils/functions'
 import { AvatarGroupStyle } from './style'
 
-interface IAvatarGroupProps {
+type IAvatarGroupProps = {
     maxLength: number,
     size: 'xs' | 'sm' | 'md' | 'lg',
     data: AvatarType[],
