@@ -1,0 +1,33 @@
+{
+  "name": "project-test-virtualspirit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "coverage": "vitest run --coverage",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@types/react-test-renderer": "^18.0.0",
+    "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/coverage-c8": "^0.25.5",
+    "happy-dom": "^7.7.2",
+    "jsdom": "^20.0.3",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.5"
+  }
+}
